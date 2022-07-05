@@ -87,6 +87,9 @@ h5, .h5 {
 .bg-light-blue {
 	background-color: #00aeee;
 }
+.bg-light-blue-2 {
+	background-color: #0098cf;
+}
 .bg-blue {
 	background-color: #0032ca;
 }
@@ -363,7 +366,7 @@ ul {
 	float: right;
 	border-radius: 30px;
 }
-.detail-box-container {
+.home-about-down .detail-box-container {
 	display: inline-block;
 	float: right;
 }
@@ -654,6 +657,90 @@ ul {
 	top: 0;
 	left: 0;
 }
+/*page-about-us*/
+.page-description {
+	background-image: url("img/bg-page-description.jpg");
+	background-size: cover;
+	position: relative;
+}
+.about-us-img-container img {
+	display: inline-block;
+	width: 260px;
+}
+.about-us-img-container img:nth-child(1) {
+	float: left;
+}
+.about-us-img-container img:nth-child(2) {
+	float: right;
+}
+.about-us-right img {
+	border-radius: 20px;
+	float: right;
+}
+.we-re-open-left h4 {
+	line-height: 60px;
+}
+.we-re-open-left h6 {
+	font-size: 25px;
+	font-weight: 600;
+}
+.we-re-open-center .we-re-open-time-item .time-left {
+	width: 155px;
+	font-size: 20px;
+}
+.we-re-open-center .we-re-open-time-item .time-right {
+	font-size: 20px;
+}
+.need-assistance-box {
+	padding: 30px 35px;
+	position: relative;
+	background-color: #038ac5;
+	max-width: 417px;
+	/*height: 220px;*/
+	float: right;
+}
+.need-assistance-box-content p {
+	font-size: 19px;
+	font-weight: 500;
+	color: #6fd8ff;
+}
+.assistance-details-box {
+	position: relative;
+	margin-top: 15px;
+}
+.assistance-details-box img {
+	border-radius: 100%;
+}
+.assistance-details {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	left: 95px;
+}
+.assis-tel {
+	font-size: 22px;
+	font-weight: 500;
+	display: block;
+}
+.assis-mail {
+	font-size: 15px;
+	font-weight: 500;
+	display: block;
+}
+.need-assistance-box-shadow {
+	height: 100%;
+	width: 100%;
+	background-color: #038ac5;
+	position: absolute;
+	top: 10px;
+	left: -10px;
+	z-index: 9;
+}
+
+
+
+
+
 
 
 
