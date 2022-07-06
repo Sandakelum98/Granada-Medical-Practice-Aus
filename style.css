@@ -475,14 +475,14 @@ ul {
 	 right: 0;
 	 margin: 0 auto;
  }
-.service-box {
+.home-service-box {
 	padding: 40px;
 	box-shadow: 0 0 13px 1px #0000001f;
 	border-radius: 20px;
 	position: relative;
 	height: 270px;
 }
-.service-box .service-icon-container {
+.home-service-box .service-icon-container {
 	background-color: #f2771d;
 	position: absolute;
 	top: 0;
@@ -498,16 +498,16 @@ ul {
 	left: 40%;
 	transform: translate(-50%, -50%);
 }
-.service-box.orange .service-box-title {
+.home-service-box.orange .home-service-box-title {
 	color: #f2771d;
 }
-.service-box.orange .service-icon-container {
+.home-service-box.orange .service-icon-container {
 	background-color: #f2771d;
 }
-.service-box.blue .service-box-title {
+.home-service-box.blue .home-service-box-title {
 	color: #00aeee;
 }
-.service-box.blue .service-icon-container {
+.home-service-box.blue .service-icon-container {
 	background-color: #00aeee;
 }
 /*home-doctors*/
@@ -735,6 +735,50 @@ ul {
 	top: 10px;
 	left: -10px;
 	z-index: 9;
+}
+/*page-services*/
+.service-box {
+	position: relative;
+	padding-bottom: 35px;
+}
+.service-box img {
+	width: 100%;
+	height: 200px;
+	object-fit: cover;
+	border-radius: 15px;
+}
+.service-box-desc {
+	width: 88%;
+	height: 70px;
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	padding: 6px 0;
+	border-radius: 10px;
+}
+.service-box-desc:hover {
+	background-color: #0098cf;
+}
+.service-box-desc-content {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: fit-content;
+}
+.service-box-desc p {
+	color: #025573;
+	font-weight: 500;
+	line-height: 17px;
+	margin-bottom: 6px;
+}
+.service-box-desc h6 {
+	font-size: 20px;
+	font-weight: 700;
+	color: #fff;
+	line-height: 21px;
+	margin: 0;
 }
 
 
