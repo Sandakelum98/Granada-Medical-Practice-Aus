@@ -806,6 +806,9 @@ ul {
 .service-item-left p:last-child {
 	margin: 0;
 }*/
+.service-item-right {
+	padding-top: 15px;
+}
 .service-item-right img {
 	border-radius: 15px;
 	float: right;
