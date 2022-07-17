@@ -39,5 +39,15 @@
             nextText: '<i class="fa fa-angle-right"></i>',
             prevText: '<i class="fa fa-angle-left"></i>'
         });
+
+        //JS function for FAQ
+        $(".question").on("click", function () {
+            if (!$(this).closest('li').hasClass("active")) {
+                $('.faq-list .answer').slideUp(1000);
+                $(this).closest('li').find('.answer').slideDown(1000);
+                $('.faq-list li').removeClass('active');
+                $(this).closest('li').addClass('active');
+            }
+        });
     });
 })(jQuery);
