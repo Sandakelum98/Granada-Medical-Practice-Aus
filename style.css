@@ -490,9 +490,19 @@ ul {
 	border-radius: 20px;
 	position: relative;
 	height: 270px;
+	display: inline-block;
+}
+.home-service-box:hover {
+	color: #404040!important;
+}
+.home-service-box:hover .home-service-box-title {
+	color: #f2771d!important;
+}
+.home-service-box:hover .service-icon-container {
+	background-color: #f2771d;
 }
 .home-service-box .service-icon-container {
-	background-color: #f2771d;
+	background-color: #00aeee;
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -507,17 +517,8 @@ ul {
 	left: 40%;
 	transform: translate(-50%, -50%);
 }
-.home-service-box.orange .home-service-box-title {
-	color: #f2771d;
-}
-.home-service-box.orange .service-icon-container {
-	background-color: #f2771d;
-}
-.home-service-box.blue .home-service-box-title {
+.home-service-box-title {
 	color: #00aeee;
-}
-.home-service-box.blue .service-icon-container {
-	background-color: #00aeee;
 }
 /*home-doctors*/
 .doctor-box img {
@@ -1049,7 +1050,13 @@ ul {
 	line-height: 40px;
 	margin-top: 10px;
 }
-/*page-contact*/
+.faq-bottom-para-content {
+	padding: 0 100px;
+}
+.faq-bottom-para p {
+	font-weight: 500;
+}
+	/*page-contact*/
 .contact-info-left {
 	padding-right: 35px;
 }
@@ -1100,9 +1107,33 @@ ul {
 	box-shadow: 0 0 13px 1px #0000001f;
 	border-radius: 12px;
 }
-
-
-
+/*page-resources*/
+.resources-left {
+	padding-right: 15px;
+}
+.resource-item {
+	position: relative;
+}
+.resource-item-icon {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.resource-item-content {
+	padding-left: 75px;
+}
+.resource-content-up {
+	font-weight: 500;
+	line-height: 24px;
+	padding-bottom: 8px;
+	display: block;
+}
+.resource-item-content p {
+	line-height: 26px;
+}
+.img-border-radius {
+	border-radius: 12px;
+}
 
 
 
