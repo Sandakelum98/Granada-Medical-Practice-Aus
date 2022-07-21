@@ -521,6 +521,19 @@ ul {
 	color: #00aeee;
 }
 /*home-doctors*/
+.doctor-box {
+	display: block;
+}
+.doctor-box:hover img {
+	border: 5px solid #f2771d;
+	-webkit-transition: all ease-out 0.3s;
+	transition: all ease-out 0.3s;
+}
+.doctor-box:hover .doctor-box-content h6 {
+	color: #f2771d;
+	-webkit-transition: all ease-out 0.3s;
+	transition: all ease-out 0.3s;
+}
 .doctor-box img {
 	border-radius: 50%;
 	border: 5px solid #00aeee;
